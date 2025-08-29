@@ -68,7 +68,7 @@ export class EditorService {
       try {
         this.editor = await createStudioEditor({
           theme: this.theme$,
-          licenseKey: '',
+          licenseKey: '5d0d2a959abd492cbdccc8f94a476f79e00fef90ea7940fe838d3ea5221926d6',
           root: editorEl,
           ...options,
           plugins: [pluginExport,
