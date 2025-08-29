@@ -17,7 +17,7 @@ export class ConvertService {
   constructor(private http: HttpClient, private store: Store) { }
 
   loadMjmlFromdb() {
-    this.http.get(this.getEmails).subscribe({
+    this.http.get(this.getEmails, {withCredentials: true}).subscribe({
       next: (data) => {
         this.store.dispatch(fetchDataSuccess({ data }));
       },
