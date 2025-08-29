@@ -13,7 +13,7 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors({
-  origin: ['http://127.0.0.1:4200', 'http://localhost:4200'],
+  origin: "*",
   methods: ['GET', 'POST'],
   credentials: true
 }));
