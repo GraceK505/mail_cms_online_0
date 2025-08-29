@@ -1,0 +1,13 @@
+{
+  "routes": {
+    "/": {},
+    "/campaign": {},
+    "/docs": {},
+    "/editor": {},
+    "/home": {},
+    "/search": {},
+    "/search-slot": {},
+    "/template-editor": {},
+    "/template-list": {}
+  }
+}
