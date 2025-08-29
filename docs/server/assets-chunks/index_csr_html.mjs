@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <meta charset="utf-8">
   <title>MailCms</title>
-  <base href="/">
+  <base href="/mail_cms_online_0/">
   <meta name="view-transition" content="same-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="send.ico">

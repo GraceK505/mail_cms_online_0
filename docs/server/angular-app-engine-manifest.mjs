@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/mail_cms_online_0',
   supportedLocales: {
   "en-US": ""
 },

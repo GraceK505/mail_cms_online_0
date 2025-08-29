@@ -1,13 +1,13 @@
 {
   "routes": {
-    "/": {},
-    "/campaign": {},
-    "/docs": {},
-    "/editor": {},
-    "/home": {},
-    "/search": {},
-    "/search-slot": {},
-    "/template-editor": {},
-    "/template-list": {}
+    "/mail_cms_online_0": {},
+    "/mail_cms_online_0/campaign": {},
+    "/mail_cms_online_0/docs": {},
+    "/mail_cms_online_0/editor": {},
+    "/mail_cms_online_0/home": {},
+    "/mail_cms_online_0/search": {},
+    "/mail_cms_online_0/search-slot": {},
+    "/mail_cms_online_0/template-editor": {},
+    "/mail_cms_online_0/template-list": {}
   }
 }
