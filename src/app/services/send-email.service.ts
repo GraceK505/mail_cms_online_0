@@ -6,7 +6,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class EmailService {
-  private apiUrl = 'http://localhost:3000/api/send-email';
+  private apiUrl = 'https://fgi7sq-ip-93-33-126-113.tunnelmole.net/api/send-email';
   header: any;
   loading = new BehaviorSubject<boolean>(true);
 
