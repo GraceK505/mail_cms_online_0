@@ -6,7 +6,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class EmailService {
-  private apiUrl = 'https://fgi7sq-ip-93-33-126-113.tunnelmole.net/api/send-email';
+  private apiUrl = 'https://qvk2ob-ip-151-47-250-0.tunnelmole.net/api/send-email';
   header: any;
   loading = new BehaviorSubject<boolean>(true);
 
@@ -14,7 +14,7 @@ export class EmailService {
     this.header = new HttpHeaders({
       'Content-Type': 'application/json',
       'X-Mailer': 'NodeMailer',
-      'Precedence': 'bulk'
+      'Precedence': 'bulk',
     });
   }
 

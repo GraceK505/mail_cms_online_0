@@ -13,7 +13,7 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors({
-  origin: ['http://127.0.0.1:4200', 'http://localhost:4200', 'https://fgi7sq-ip-93-33-126-113.tunnelmole.net', "https://gracek505.github.io/mail_cms_online_0/"],
+  origin: ['http://127.0.0.1:4200', 'http://localhost:4200', 'https://qvk2ob-ip-151-47-250-0.tunnelmole.net/', "https://gracek505.github.io/mail_cms_online_0/"],
   methods: ['GET', 'POST'],
   credentials: true
 }));
