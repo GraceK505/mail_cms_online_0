@@ -12,11 +12,20 @@ app.use(express.urlencoded({ extended: true, limit: '200mb' }));
 app.use(express.static('public'));
 app.use(express.json());
 app.use(bodyParser.json());
+
 app.use(cors({
-  origin: ['http://127.0.0.1:4200', 'http://localhost:4200', 'https://qvk2ob-ip-151-47-250-0.tunnelmole.net/', "https://gracek505.github.io/mail_cms_online_0/"],
-  methods: ['GET', 'POST'],
-  credentials: true
+  origin: true,
+  methods: ['GET', 'POST', 'OPTIONS'],
+  credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
 }));
+
+// Set headers for all responses
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  next();
+});
 
 app.use('/api', apiRouter);
 
