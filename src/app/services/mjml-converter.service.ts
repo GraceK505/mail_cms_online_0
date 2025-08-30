@@ -11,8 +11,8 @@ import { Store } from "@ngrx/store";
   providedIn: "root",
 })
 export class ConvertService {
-  private apiUrl = "https://qvk2ob-ip-151-47-250-0.tunnelmole.net/api/convert-mjml";
-  private getEmails = "https://qvk2ob-ip-151-47-250-0.tunnelmole.net/api/emails";
+  private apiUrl = "https://service-data-eq2m.onrender.com/api/convert-mjml";
+  private getEmails = "https://service-data-eq2m.onrender.com/api/emails";
 
   constructor(private http: HttpClient, private store: Store) { }
 
